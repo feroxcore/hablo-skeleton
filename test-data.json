@@ -1,0 +1,302 @@
+[
+  {
+    "sessionId": "sess-1001",
+    "turnId": "turn-0001",
+    "userId": "user-42",
+    "input": { "text": "I want to cancel my subscription" },
+    "context": {
+      "source": "web",
+      "locale": "en-US",
+      "previousIntent": "manage_subscription",
+      "step": "confirm_cancellation"
+    }
+  },
+  {
+    "sessionId": "sess-1002",
+    "turnId": "turn-0002",
+    "userId": "user-21",
+    "input": { "text": "Why was I charged twice?" },
+    "context": {
+      "source": "mobile",
+      "locale": "en-GB",
+      "previousIntent": "billing_issue",
+      "step": "investigate_charge"
+    }
+  },
+  {
+    "sessionId": "sess-1003",
+    "turnId": "turn-0003",
+    "userId": "user-11",
+    "input": { "text": "Book a meeting tomorrow at 3pm" },
+    "context": {
+      "source": "web",
+      "locale": "en-US",
+      "previousIntent": "schedule_meeting",
+      "step": "collect_details"
+    }
+  },
+  {
+    "sessionId": "sess-1004",
+    "turnId": "turn-0004",
+    "userId": "user-87",
+    "input": { "text": "I need help with my payment" },
+    "context": {
+      "source": "web",
+      "locale": "en-US",
+      "previousIntent": "payment_support",
+      "step": "identify_issue"
+    }
+  },
+  {
+    "sessionId": "sess-1005",
+    "turnId": "turn-0005",
+    "userId": "user-33",
+    "input": { "text": "Change my plan to premium" },
+    "context": {
+      "source": "mobile",
+      "locale": "en-US",
+      "previousIntent": "upgrade_plan",
+      "step": "confirm_upgrade"
+    }
+  },
+  {
+    "sessionId": "sess-1006",
+    "turnId": "turn-0006",
+    "userId": "user-65",
+    "input": { "text": "What are your pricing options?" },
+    "context": {
+      "source": "web",
+      "locale": "en-GB",
+      "previousIntent": "pricing_query",
+      "step": "show_plans"
+    }
+  },
+  {
+    "sessionId": "sess-1007",
+    "turnId": "turn-0007",
+    "userId": "user-78",
+    "input": { "text": "Reset my password" },
+    "context": {
+      "source": "mobile",
+      "locale": "en-US",
+      "previousIntent": "account_access",
+      "step": "reset_password"
+    }
+  },
+  {
+    "sessionId": "sess-1008",
+    "turnId": "turn-0008",
+    "userId": "user-19",
+    "input": { "text": "Delete my account" },
+    "context": {
+      "source": "web",
+      "locale": "en-US",
+      "previousIntent": "account_management",
+      "step": "confirm_deletion"
+    }
+  },
+  {
+    "sessionId": "sess-1009",
+    "turnId": "turn-0009",
+    "userId": "user-55",
+    "input": { "text": "Schedule a call with support" },
+    "context": {
+      "source": "web",
+      "locale": "en-GB",
+      "previousIntent": "support_request",
+      "step": "schedule_call"
+    }
+  },
+  {
+    "sessionId": "sess-1010",
+    "turnId": "turn-0010",
+    "userId": "user-90",
+    "input": { "text": "My app is not working" },
+    "context": {
+      "source": "mobile",
+      "locale": "en-US",
+      "previousIntent": "technical_issue",
+      "step": "diagnose_problem"
+    }
+  },
+  {
+    "sessionId": "sess-1011",
+    "turnId": "turn-0011",
+    "userId": "user-44",
+    "input": { "text": "Update my billing information" },
+    "context": {
+      "source": "web",
+      "locale": "en-US",
+      "previousIntent": "billing_update",
+      "step": "edit_payment_method"
+    }
+  },
+  {
+    "sessionId": "sess-1012",
+    "turnId": "turn-0012",
+    "userId": "user-12",
+    "input": { "text": "Where can I find invoices?" },
+    "context": {
+      "source": "web",
+      "locale": "en-GB",
+      "previousIntent": "billing_query",
+      "step": "view_invoices"
+    }
+  },
+  {
+    "sessionId": "sess-1013",
+    "turnId": "turn-0013",
+    "userId": "user-39",
+    "input": { "text": "Pause my subscription" },
+    "context": {
+      "source": "mobile",
+      "locale": "en-US",
+      "previousIntent": "manage_subscription",
+      "step": "pause_subscription"
+    }
+  },
+  {
+    "sessionId": "sess-1014",
+    "turnId": "turn-0014",
+    "userId": "user-72",
+    "input": { "text": "Resume my subscription" },
+    "context": {
+      "source": "mobile",
+      "locale": "en-US",
+      "previousIntent": "manage_subscription",
+      "step": "resume_subscription"
+    }
+  },
+  {
+    "sessionId": "sess-1015",
+    "turnId": "turn-0015",
+    "userId": "user-60",
+    "input": { "text": "I want to downgrade my plan" },
+    "context": {
+      "source": "web",
+      "locale": "en-GB",
+      "previousIntent": "change_plan",
+      "step": "select_plan"
+    }
+  },
+  {
+    "sessionId": "sess-1016",
+    "turnId": "turn-0016",
+    "userId": "user-88",
+    "input": { "text": "Help me with login issues" },
+    "context": {
+      "source": "mobile",
+      "locale": "en-US",
+      "previousIntent": "account_access",
+      "step": "troubleshoot_login"
+    }
+  },
+  {
+    "sessionId": "sess-1017",
+    "turnId": "turn-0017",
+    "userId": "user-29",
+    "input": { "text": "Can I get a refund?" },
+    "context": {
+      "source": "web",
+      "locale": "en-US",
+      "previousIntent": "refund_request",
+      "step": "check_eligibility"
+    }
+  },
+  {
+    "sessionId": "sess-1018",
+    "turnId": "turn-0018",
+    "userId": "user-53",
+    "input": { "text": "Track my order" },
+    "context": {
+      "source": "mobile",
+      "locale": "en-GB",
+      "previousIntent": "order_tracking",
+      "step": "fetch_status"
+    }
+  },
+  {
+    "sessionId": "sess-1019",
+    "turnId": "turn-0019",
+    "userId": "user-14",
+    "input": { "text": "Cancel my order" },
+    "context": {
+      "source": "web",
+      "locale": "en-US",
+      "previousIntent": "order_management",
+      "step": "confirm_cancel"
+    }
+  },
+  {
+    "sessionId": "sess-1020",
+    "turnId": "turn-0020",
+    "userId": "user-91",
+    "input": { "text": "Change delivery address" },
+    "context": {
+      "source": "mobile",
+      "locale": "en-US",
+      "previousIntent": "order_update",
+      "step": "edit_address"
+    }
+  },
+  {
+    "sessionId": "sess-1021",
+    "turnId": "turn-0021",
+    "userId": "user-36",
+    "input": { "text": "What features are included?" },
+    "context": {
+      "source": "web",
+      "locale": "en-GB",
+      "previousIntent": "product_info",
+      "step": "show_features"
+    }
+  },
+  {
+    "sessionId": "sess-1022",
+    "turnId": "turn-0022",
+    "userId": "user-48",
+    "input": { "text": "Contact support" },
+    "context": {
+      "source": "web",
+      "locale": "en-US",
+      "previousIntent": "support_request",
+      "step": "connect_agent"
+    }
+  },
+  {
+    "sessionId": "sess-1023",
+    "turnId": "turn-0023",
+    "userId": "user-67",
+    "input": { "text": "Update email address" },
+    "context": {
+      "source": "mobile",
+      "locale": "en-US",
+      "previousIntent": "account_update",
+      "step": "edit_email"
+    }
+  },
+  {
+    "sessionId": "sess-1024",
+    "turnId": "turn-0024",
+    "userId": "user-81",
+    "input": { "text": "I forgot my username" },
+    "context": {
+      "source": "web",
+      "locale": "en-GB",
+      "previousIntent": "account_recovery",
+      "step": "recover_username"
+    }
+  },
+  {
+    "sessionId": "sess-1025",
+    "turnId": "turn-0025",
+    "userId": "user-99",
+    "input": { "text": "Upgrade my account now" },
+    "context": {
+      "source": "mobile",
+      "locale": "en-US",
+      "previousIntent": "upgrade_plan",
+      "step": "confirm_upgrade"
+    }
+  }
+]
